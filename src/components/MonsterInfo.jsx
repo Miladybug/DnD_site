@@ -5,7 +5,7 @@ const MonsterInfo = (props) => {
 
     useEffect(() => {
         const fetchMonsterInfo = async () => {
-            const response = await fetch(`http://www.dnd5eapi.co/api/monsters/${props.index}`);
+            const response = await fetch(`https://www.dnd5eapi.co/api/monsters/${props.index}`);
             if (!response.ok){
                 throw new Error("Something went wrong!");
             }
