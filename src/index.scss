@@ -1,0 +1,57 @@
+// Before Import
+$primary: #7a0800;
+
+// Import
+@import "bootstrap/scss/bootstrap";
+
+// After Import
+body {
+    background-color: #383736;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#jumbotron {
+    background-image: url("./assets/castle.jpg");
+    background-size: 100%;
+    width: 100%;
+
+    h1 {
+        color: $primary;
+    }
+}
+
+.home-cards{
+    color: $primary;
+    font-family: "Metal Mania";
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.custom-card-div {
+    margin: 1.5rem auto;
+    width: 30rem;
+    padding: 1rem;
+}
+.full-card {
+    width: 85%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+}
+
+.custom-list-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.custom-card-header {
+    font-family: "Metal Mania";
+}
+
+.page-header {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    font-family: "Metal Mania";
+}
