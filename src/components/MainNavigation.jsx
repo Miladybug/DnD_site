@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom"
+import 'bootstrap/dist/js/bootstrap.min.js'
 
 const MainNavigation = () => {
     return (
@@ -7,7 +8,7 @@ const MainNavigation = () => {
                 <NavLink to='/' className="navbar-brand">
                     Home
                 </NavLink>
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">

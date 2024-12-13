@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import 'bootstrap/dist/js/bootstrap.min.js'
 import RootLayout from "./pages/Root"
 import HomePage from "./pages/HomePage"
 import ClassListPage from "./pages/ClassListPage"
